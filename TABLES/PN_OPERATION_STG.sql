@@ -1,0 +1,18 @@
+--------------------------------------------------------
+--  DDL for Table PN_OPERATION_STG
+--------------------------------------------------------
+
+  CREATE TABLE "ASB_STG"."PN_OPERATION_STG" 
+   (	"ASB_UNIT_CODE" VARCHAR2(10 BYTE), 
+	"EFFECTIVE" DATE, 
+	"RANK" NUMBER(1,0), 
+	"OP_LEVEL" NUMBER(10,3), 
+	"FILE_DATE" DATE, 
+	"ITEM_CODE" VARCHAR2(4 BYTE), 
+	"LOAD_SEQ_NBR" NUMBER, 
+	"DATE_CREATED" DATE
+   ) SEGMENT CREATION DEFERRED 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  TABLESPACE "USERS" ;
+ 
